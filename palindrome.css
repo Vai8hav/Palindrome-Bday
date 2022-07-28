@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+:root {
+  --primary-color: #ff76bb;
+  --secondary-color: #a40052;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: linear-gradient( #ffffff, var(--primary-color));
+  background-attachment: fixed;
+}
+
+main {
+  text-align: center;
+  margin: 3rem;
+}
+
+h2 {
+  font-size: xx-large;
+  margin: 2rem 0rem 3rem;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+#show-btn {
+  background: var(--secondary-color);
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+
+#show-btn:hover {
+  background-color: var(--primary-color) ;
+  color: black;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.258);
+}
+
+#result {
+  font-size: x-large;
+  margin: 2rem 0;
+}
+
+footer {
+  padding: 2rem;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  left:0;
+  padding-inline-start: 0px;
+}
+
+.list-style {
+  list-style: none;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.list-style-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
