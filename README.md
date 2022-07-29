@@ -1,7 +1,8 @@
 # Palindrome-Bday-mark13
 
 ## Problem Statement:
-Tell the user how much profit or loss he/she is making on a stock. A website which helps user with how much profit or loss he/she is making through stocks in percentage & absolute value.
+Tell your friends if their birthdates are palindrome.
+An App which checks whether your birthday is a palindrome birthday & if not let's you the nearest palindrome date with how many days you have missed
 
 ## How to use:
 - Enter your birth date & click on Enter
